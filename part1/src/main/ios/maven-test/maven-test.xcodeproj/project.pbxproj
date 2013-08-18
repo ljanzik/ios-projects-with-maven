@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B70AA9F17C0AAC100ED479A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B70AA9E17C0AAC100ED479A /* UIKit.framework */; };
+		7B70AAA117C0AAC100ED479A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B70AAA017C0AAC100ED479A /* Foundation.framework */; };
+		7B70AAA317C0AAC100ED479A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B70AAA217C0AAC100ED479A /* CoreGraphics.framework */; };
+		7B70AAA917C0AAC100ED479A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B70AAA717C0AAC100ED479A /* InfoPlist.strings */; };
+		7B70AAAB17C0AAC100ED479A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B70AAAA17C0AAC100ED479A /* main.m */; };
+		7B70AAAF17C0AAC100ED479A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B70AAAE17C0AAC100ED479A /* AppDelegate.m */; };
+		7B70AAB117C0AAC100ED479A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B70AAB017C0AAC100ED479A /* Default.png */; };
+		7B70AAB317C0AAC100ED479A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B70AAB217C0AAC100ED479A /* Default@2x.png */; };
+		7B70AAB517C0AAC100ED479A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B70AAB417C0AAC100ED479A /* Default-568h@2x.png */; };
+		7B70AAB817C0AAC100ED479A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B70AAB717C0AAC100ED479A /* ViewController.m */; };
+		7B70AABB17C0AAC100ED479A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B70AAB917C0AAC100ED479A /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B70AA9B17C0AAC100ED479A /* maven-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "maven-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B70AA9E17C0AAC100ED479A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7B70AAA017C0AAC100ED479A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B70AAA217C0AAC100ED479A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B70AAA617C0AAC100ED479A /* maven-test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "maven-test-Info.plist"; sourceTree = "<group>"; };
+		7B70AAA817C0AAC100ED479A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B70AAAA17C0AAC100ED479A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B70AAAC17C0AAC100ED479A /* maven-test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "maven-test-Prefix.pch"; sourceTree = "<group>"; };
+		7B70AAAD17C0AAC100ED479A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B70AAAE17C0AAC100ED479A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B70AAB017C0AAC100ED479A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7B70AAB217C0AAC100ED479A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7B70AAB417C0AAC100ED479A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7B70AAB617C0AAC100ED479A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B70AAB717C0AAC100ED479A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B70AABA17C0AAC100ED479A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B70AA9817C0AAC100ED479A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B70AA9F17C0AAC100ED479A /* UIKit.framework in Frameworks */,
+				7B70AAA117C0AAC100ED479A /* Foundation.framework in Frameworks */,
+				7B70AAA317C0AAC100ED479A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B70AA9217C0AAC100ED479A = {
+			isa = PBXGroup;
+			children = (
+				7B70AAA417C0AAC100ED479A /* maven-test */,
+				7B70AA9D17C0AAC100ED479A /* Frameworks */,
+				7B70AA9C17C0AAC100ED479A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B70AA9C17C0AAC100ED479A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B70AA9B17C0AAC100ED479A /* maven-test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B70AA9D17C0AAC100ED479A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B70AA9E17C0AAC100ED479A /* UIKit.framework */,
+				7B70AAA017C0AAC100ED479A /* Foundation.framework */,
+				7B70AAA217C0AAC100ED479A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B70AAA417C0AAC100ED479A /* maven-test */ = {
+			isa = PBXGroup;
+			children = (
+				7B70AAAD17C0AAC100ED479A /* AppDelegate.h */,
+				7B70AAAE17C0AAC100ED479A /* AppDelegate.m */,
+				7B70AAB617C0AAC100ED479A /* ViewController.h */,
+				7B70AAB717C0AAC100ED479A /* ViewController.m */,
+				7B70AAB917C0AAC100ED479A /* ViewController.xib */,
+				7B70AAA517C0AAC100ED479A /* Supporting Files */,
+			);
+			path = "maven-test";
+			sourceTree = "<group>";
+		};
+		7B70AAA517C0AAC100ED479A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B70AAA617C0AAC100ED479A /* maven-test-Info.plist */,
+				7B70AAA717C0AAC100ED479A /* InfoPlist.strings */,
+				7B70AAAA17C0AAC100ED479A /* main.m */,
+				7B70AAAC17C0AAC100ED479A /* maven-test-Prefix.pch */,
+				7B70AAB017C0AAC100ED479A /* Default.png */,
+				7B70AAB217C0AAC100ED479A /* Default@2x.png */,
+				7B70AAB417C0AAC100ED479A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B70AA9A17C0AAC100ED479A /* maven-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B70AABE17C0AAC100ED479A /* Build configuration list for PBXNativeTarget "maven-test" */;
+			buildPhases = (
+				7B70AA9717C0AAC100ED479A /* Sources */,
+				7B70AA9817C0AAC100ED479A /* Frameworks */,
+				7B70AA9917C0AAC100ED479A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "maven-test";
+			productName = "maven-test";
+			productReference = 7B70AA9B17C0AAC100ED479A /* maven-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B70AA9317C0AAC100ED479A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ThoughtsOnMobile;
+			};
+			buildConfigurationList = 7B70AA9617C0AAC100ED479A /* Build configuration list for PBXProject "maven-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B70AA9217C0AAC100ED479A;
+			productRefGroup = 7B70AA9C17C0AAC100ED479A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B70AA9A17C0AAC100ED479A /* maven-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B70AA9917C0AAC100ED479A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B70AAA917C0AAC100ED479A /* InfoPlist.strings in Resources */,
+				7B70AAB117C0AAC100ED479A /* Default.png in Resources */,
+				7B70AAB317C0AAC100ED479A /* Default@2x.png in Resources */,
+				7B70AAB517C0AAC100ED479A /* Default-568h@2x.png in Resources */,
+				7B70AABB17C0AAC100ED479A /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B70AA9717C0AAC100ED479A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B70AAAB17C0AAC100ED479A /* main.m in Sources */,
+				7B70AAAF17C0AAC100ED479A /* AppDelegate.m in Sources */,
+				7B70AAB817C0AAC100ED479A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B70AAA717C0AAC100ED479A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B70AAA817C0AAC100ED479A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7B70AAB917C0AAC100ED479A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B70AABA17C0AAC100ED479A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B70AABC17C0AAC100ED479A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B70AABD17C0AAC100ED479A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B70AABF17C0AAC100ED479A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "maven-test/maven-test-Prefix.pch";
+				INFOPLIST_FILE = "maven-test/maven-test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B70AAC017C0AAC100ED479A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "maven-test/maven-test-Prefix.pch";
+				INFOPLIST_FILE = "maven-test/maven-test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B70AA9617C0AAC100ED479A /* Build configuration list for PBXProject "maven-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B70AABC17C0AAC100ED479A /* Debug */,
+				7B70AABD17C0AAC100ED479A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B70AABE17C0AAC100ED479A /* Build configuration list for PBXNativeTarget "maven-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B70AABF17C0AAC100ED479A /* Debug */,
+				7B70AAC017C0AAC100ED479A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B70AA9317C0AAC100ED479A /* Project object */;
+}

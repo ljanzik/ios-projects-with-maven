@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.thoughtsonmobile.ios</groupId>
+	<artifactId>maven-test</artifactId>
+
+	<version>1.0-SNAPSHOT</version>
+	<name>Maven+iOS Example Project</name>
+	
+	<packaging>ipa</packaging>
+		
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>de.letsdev.maven.plugins</groupId>
+				<artifactId>maven-ios-plugin</artifactId>
+				<version>1.6-SNAPSHOT</version>
+				<extensions>true</extensions>
+				<configuration>
+					<sourceDir>src/main/ios</sourceDir>
+					<codeSignIdentity>iPhone Developer: Leif Janzik</codeSignIdentity>
+					<appName>${project.artifactId}</appName>
+					<bundleIdentifier>com.thoughtsonmobile.${PRODUCT_NAME:rfc1034identifier}</bundleIdentifier>
+					<displayName>TOM Maven</displayName>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
